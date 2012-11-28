@@ -1,0 +1,591 @@
+body {
+	background-color: #000;
+	margin:0px;
+	padding:0px;
+	background-image:url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+p {
+	margin:0px;
+	padding:0px;
+	font-size: 12px;
+	font-family: inherit;
+	
+	color: #000;
+	line-height: 1.3em;
+	vertical-align: top;
+}
+
+img {
+	border:0px;
+}
+div {
+	margin:0px;
+	padding:0px;
+	font-family:verdana; font-size:12px;
+}
+.AbsWrap {
+	width: 100%;
+	position: relative;
+}
+.rowWrap {
+	width: 100%;
+}
+.clearfloat {
+	clear:both;
+	height:0px;
+}
+a:link, a:visited{
+	COLOR:inherit;
+	text-decoration:inherit;
+}
+#main {
+	width:960px;
+	margin: 24px auto 0px auto;
+	border: none;
+	background-image:url(../images/px-creme.png);
+
+}
+#header {
+	margin-left:0px;
+	margin-top:0px;
+	width:960px;
+	height:110px;
+	margin-bottom:0px;
+	/*float:left;*/
+	position:relative;
+	display:block;
+	background-color:#000;
+}
+
+#header-btm {
+	background-color:#fecd04;
+	height:9px;
+	padding:0;
+	margin:0;
+	width:960px;
+	position:relative;
+	top:-9px;
+}
+
+#header p, #header a  {
+	color:#fecd04;	
+}
+
+
+#logo {
+	padding-left: 25px;
+	padding-top: 40px;
+	float:left;
+}
+
+
+#nav {
+	margin-left:0px;
+	margin-top:0px;
+	width:621px;
+	height:29px;
+	margin-bottom:0px;
+	/*float:right;*/
+	display:inline;
+/*	background-image: url(../images/nav.jpg);*/
+	background-color:#000;
+	background-position:0px 0px;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	padding:0;
+	padding-left:0px;
+	position:absolute;
+	bottom:0px;
+	right:0;
+	z-index:999;
+	font-size:10px;
+	font-family: MuseoSlab-900; 
+	text-transform:uppercase;
+}
+
+
+#nav-wrapper {
+	position:relative;
+	top:0px;
+	height:110px;
+	z-index:1;
+}
+ 
+
+ 
+    #nav li, #nav a {
+    height:29px;
+    display:block;
+	color:#000;
+    }
+	
+	#nav a {
+		/*padding-top:7px;*/
+		text-align:center;
+	}
+ 
+ #nav a span{
+		position:relative;
+		top:9px;
+		
+	}
+ 
+    #nav li {
+    float:left;
+    list-style:none;
+    display:inline;
+    }
+ 
+    #nav1 a{
+		width: 137px;
+		background-image: url(../images/nav1-bg-spr.jpg);
+		background-repeat:no-repeat;}
+    #nav2 a{
+		width: 121px;
+		background-image: url(../images/nav2-bg-spr.jpg);
+		background-repeat:no-repeat;}
+
+ 
+    #nav1 a:hover, #nav2 a:hover {
+		color: #FFF;}
+			
+
+    #nav1 a:active, #nav2 a:active, #nav1 a.current, #nav2 a.current{
+		background-position: 0px -29px;
+		color: #000!important;
+		}
+       
+   
+/*-------secondary navigation ------------*/   
+   
+#sec-nav{
+	font-size: 11px;
+	float: right;
+	clear: right;
+	width: 410px;
+	color: #fecd04;
+	text-transform: uppercase;
+	padding-top: 0px;
+	margin:0;
+}
+
+#sec-nav ul {
+	margin: 0;
+	padding: 0 10px 0 0;
+	list-style: none;
+	float:right;
+}
+#sec-nav li {
+	position: relative;
+	float: left;
+	padding: 10px 0px;
+}
+
+#sec-nav li a {
+	padding: 0 6px;
+	border-left: solid 1px #fecd04;
+}
+
+#sec-nav li a:hover {
+	color:#fff;
+}
+
+/*-----------------*/  
+
+
+#shadow {
+	margin:0px;
+	
+	width:960px;
+	height:7px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+	background-image: url(../images/shadow.png);
+	background-repeat:no-repeat;
+	overflow:hidden;
+
+}
+#box-1-top {
+	margin-left:23px;
+	margin-top:16px;
+	width:316px;
+	height:29px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+	background-image: url(../images/box-1-top.png);
+	background-repeat:no-repeat;
+	overflow:hidden;
+
+}
+
+#box-1-top h2, #box-2 h2, #box-3 h2{
+	margin: 10px 0 0 20px;
+	text-transform:uppercase;
+	font-family: MuseoSlab-700;
+	font-size:14px;
+}
+
+
+#box-1-bottom {
+	margin-left:23px;
+	margin-top:0px;
+	width:344px;
+	height:156px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+	/*background-image: url(../images/box-1-bottom.jpg);*/
+	background-image: url(../images/px-yellow.png);
+	background-repeat:repeat;
+	overflow:hidden;
+}
+
+#box-1-bottom p{
+	padding: 20px 20px 0 20px;
+}
+	
+#box-2 {
+	margin-left:9px;
+	margin-top:0px;
+	width:233px;
+	height:156px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+	background-image: url(../images/px-yellow.png);
+	background-repeat:repeat;
+	overflow:hidden;
+
+}
+
+
+	
+	
+#box-3 {
+	margin-left:9px;
+	margin-top:0px;
+	width:318px;
+	height:156px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+	/*background-image: url(../images/box-3.jpg);*/
+	background-image: url(../images/px-yellow.png);
+	background-repeat:repeat;
+	overflow:hidden;
+
+}
+
+#footer{
+	margin-top:35px;
+}
+
+#footer-left {
+	margin-left:0px;
+	margin-top:0px;
+	width:480px;
+	height:27px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+/*	background-image: url(../images/footer-left.jpg);*/
+	overflow:hidden;
+
+}
+#footer-nav {
+	height:18px;
+	padding-left:24px;
+}
+
+
+#footer-nav a{
+	padding: 0 10px;
+	border-left: #000 solid 1px;
+	color:#000;
+}
+
+#footer-nav a:hover{
+	color:#FFF;
+}
+#footer-btm {
+	height:9px;
+	background-image: url(../images/px-yellow.png);
+	background-repeat:repeat;
+}
+
+#footer-right {
+	margin-left:0px;
+	margin-top:0px;
+	width:480px;
+	height:27px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+	background-image: url(../images/footer-right.jpg);
+	overflow:hidden;
+
+}
+
+
+
+/*-------dealer search ------------*/
+
+#dealer_search {
+	width: 300px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	float: right;
+	color:#fecd04;
+}
+
+#dealer_search {
+	font-size: 11px;
+	line-height: 18px;
+	text-align: right;
+	padding-top: 10px;
+}
+#dealer_search a {
+	color:#fecd04;
+	text-decoration: none;
+	text-align:left;
+	text-transform:uppercase;
+	font-size: 9px;
+	display:block;
+	padding-left:80px;
+	line-height:1em;
+}
+#dealer_search a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#zip_search {
+	background-image: url(../images/bg_dealer-search.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	display: block;
+	float: right;
+	height: 20px;
+	width: 300px;
+	text-transform: uppercase;
+}
+#zip_search label {
+	display: block;
+	float: left;
+	height: 20px;
+	width: 200px;
+	margin-right: 10px;
+	font-family: MuseoSlab-700; 
+}
+
+#zip_search #zipfield {
+	font-size: 10px;
+	width:67px;
+	height:19px;
+	background-color: transparent;
+	border:none;
+	display: block;
+	float: left;
+	padding-left: 3px;
+	text-transform: none;
+	font-style: italic;	
+}
+#zip_search .submitbutton {
+	display: block;
+	float: left;
+	height: 25px;
+	width: 25px;
+}
+
+
+#box-2 form{
+	 padding:0px 20px 0px 20px;
+}
+
+
+#box-2 #zip_search {
+	background-image: url(../images/bg_dealer-search-big.gif);
+	background-repeat: no-repeat;
+	background-position: 20px bottom;
+	display: block;
+	float: none;
+	height: 45px;
+	width: 200px;
+	text-transform: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+
+#box-2 #tCountry {
+	background-image: url(../images/bg_dealer-int-search-big.jpg);
+	background-repeat: no-repeat;
+	background-position: 20px bottom;
+	display: block;
+	float: none;
+	height: 45px;
+	width: 200px;
+	text-transform: none;
+	font-style: italic;	
+}
+
+
+#box-2 #zip_search label , #box-2 label{
+	display: block;
+	float: none;
+	height: 20px;
+	width: 200px;
+	margin-right: 10px;
+}
+
+#box-2 #zip_search #zipfield {
+	font-size: 10px;
+	width:147px;
+	height:22px;
+	background-color: transparent;
+	border:none;
+	display: block;
+	float: left;
+	padding-left: 10px;
+	text-transform:none;
+	color:#999999;
+}
+
+
+#box-2 .submitbutton {
+	display: block;
+	float: left;
+	height: 25px;
+	width: 25px;
+	position: relative;
+	left: 0px;
+}
+
+
+
+
+/* Drop down styles*/
+div.selectbox-wrapper {
+  position:absolute;
+  width:300px;
+  background-color:white;
+  border:1px solid #ccc;
+  margin:0px;
+  margin-top:0px;
+  padding:0px;
+  text-align:left;
+  max-height:150px;
+  overflow:auto;
+}
+
+/*Drop down list styles*/
+div.selectbox-wrapper ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+/* Selected item in dropdown list*/
+div.selectbox-wrapper ul li.selected { 
+  background-color: #ccc;
+  color: #fff;
+}
+
+/* Hover state for dropdown list */
+div.selectbox-wrapper ul li.current { 
+  background-color:#999;
+  color: #fff;
+}
+
+/* Drop down list items style*/
+div.selectbox-wrapper ul li {
+  list-style-type:none;
+  display:block;
+  margin:0;
+  padding:2px;
+  cursor:pointer;
+}
+
+/* Look and feel of select box */
+.selectbox 
+{
+  margin: 0px 0px 10px 0px;
+
+  width : 148px; 
+  height: 23px;
+  display : block;
+  text-align:left; 
+  background: url(../images/bg_dealer-int-search-big.jpg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border:0px solid #D1E4F6;
+  color:#999;
+  font-size: 10px;
+  padding-left: 10px;
+  float: left;
+  text-transform: none;
+	font-style: italic;	
+}
+
+
+/*----------slider--------------------------*/
+
+
+#slider {
+	width: 914px;
+	height:342px;
+	margin: 23px auto 0 auto;
+}
+
+
+#featured { 
+	width: 914px;
+	height: 342px;
+	background: #fff url('../images/orbit/loading.gif') no-repeat center center;
+	overflow: hidden; }
+#featured>img,  
+#featured>div,
+#featured>a { display: none; }
+
+
+
+
+
+/* images with caption */
+ #slider3 img { width: 100%; height: 100%; }
+ /* position the panels so the captions appear correctly */
+ #slider3 .panel { position: relative; }
+ /* captions */
+#slider3 .caption-left {
+  background-image: url(../images/px-yellow.png);
+	background-repeat:repeat;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  position: relative;
+  top:70px;
+  z-index: 10;
+/*  opacity: .8;
+  filter: alpha(opacity=80);*/
+ }
+
+ /* Left caption - padding is included in the width (130px here, 150px in the script), same for height */
+ #slider3 .caption-left {
+  left: 0;
+  bottom: 0;
+  width: 150px;
+  height: 185px;
+ }
+ /* Caption close button */
+ .caption-top .close, .caption-right .close,
+ .caption-bottom .close, .caption-left .close {
+  font-size: 80%;
+  cursor: pointer;
+  float: right;
+  display: inline-block;
+ }
