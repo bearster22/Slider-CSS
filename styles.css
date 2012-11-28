@@ -55,10 +55,12 @@ body {
 	background-color: #000;
 	margin:0px;
 	padding:0px;
-	background-image:url(../images/bg.jpg);
+	background-image:url(../images/striper-bg-03.jpg);
 	background-repeat:no-repeat;
 	background-position:center top;
+	background-size:cover; /* change for live site */
 }
+
 p {
 	margin:0px;
 	padding:0px;
@@ -106,6 +108,7 @@ a:link, a:visited{
 	margin: 10px auto 10px auto;
 	border: none;
 	background-image:url(../images/px-creme.png);
+	background-color: rgba(255,255,255,.7);
 	zoom: 1;
 
 }
