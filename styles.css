@@ -146,7 +146,7 @@ a:link, a:visited{
 #content h2{
 	margin-bottom: 20px;
 	font-size:16px;
-	font-family: MuseoSlab-900; 
+	/*font-family: MuseoSlab-900;*/ 
 	text-transform:uppercase;
 }
 
@@ -165,7 +165,7 @@ a:link, a:visited{
 	font-size:34px;
 	line-height:1em;
 	text-transform:uppercase;
-	font-family: MuseoSlab-700; 
+	font-family: Helvetica;/*MuseoSlab-700;*/ 
 	
 	width:880px;
 	
@@ -174,7 +174,8 @@ a:link, a:visited{
 #content h3{
 	margin-bottom: 10px;
 	font-size:13px;
-	font-family: MuseoSlab-500; 
+	font-family: Helvetica;/*MuseoSlab-500;*/ 
+	font-weight:500;
 	text-transform:uppercase;
 	text-align:center;
 	background-image:url(../images/landing-title-bg.png);
@@ -209,9 +210,10 @@ ul.grid {
   }
 
 .grid li p {
-	font-family: MuseoSlab-700; 
+	font-family: Helvetica;/*MuseoSlab-700;*/ 
 	font-size:14px!important;
 	color:#836D20!important;
+	font-weight:700;
 }
  
 
@@ -297,7 +299,8 @@ ul.grid {
 	right:0;
 	z-index:999;
 	font-size:10px;
-	font-family: MuseoSlab-900; 
+	/*font-family: MuseoSlab-900;*/
+	font-weight:900; 
 	text-transform:uppercase;
 }
 
@@ -415,7 +418,8 @@ ul.grid {
 #nav ul a{
 	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
 	color:#FFF;
-	font-family: MuseoSlab-300; 
+	font-family: Helvetica;/*MuseoSlab-300;*/ 
+	font-weight:300;
 	text-transform:uppercase;
 	font-size:12px;
 	line-height:2.2em;
@@ -489,6 +493,8 @@ ul.grid {
 	text-transform: uppercase;
 	padding: 0px;
 	margin:0;
+	font-family:Helvetica;
+	
 }
 
 #sec-nav ul {
@@ -597,7 +603,8 @@ ul.grid {
 #box-1-top h2, #box-2 h2, #box-3 h2{
 	margin: 10px 0 0 20px;
 	text-transform:uppercase;
-	font-family: MuseoSlab-700;
+	font-family: Helvetica;/*MuseoSlab-700;*/
+	font-weight:700;
 	font-size:14px;
 }
 
@@ -696,7 +703,8 @@ ul.grid {
 	margin-bottom:0;
 	font-size:32px;
 	text-transform:uppercase;
-	font-family: MuseoSlab-100; 
+	font-family: Helvetica;/*MuseoSlab-100;*/
+	font-weight:100; 
 }
 
 .boat-box-2 h2 span {
@@ -908,7 +916,8 @@ ul.grid {
 
 p.click a {
 	background:#000;
-	font-family: MuseoSlab-700; 
+	font-family: Helvetica;/*MuseoSlab-700;*/ 
+	font-weight:700;
 	text-transform: uppercase; 
 	color:#fecd04;
 	padding: 5px 10px 3px 10px;
@@ -932,8 +941,8 @@ p.click a {
 	font-size:34px;
 	line-height:1em;
 	text-transform:uppercase;
-	font-family: MuseoSlab-700; 
-	
+	font-family: Helvetica;/*MuseoSlab-700;*/ 
+	font-weight:700;
 	width:874px;
 }
 
@@ -951,7 +960,8 @@ p.click a {
 	font-size:18px;
 	line-height:1em;
 	text-transform:uppercase;
-	font-family: MuseoSlab-500; 
+	font-family: Helvetica;/*MuseoSlab-500;*/ 
+	font-weight:500;
 }
 
 .slider2 h3 {
@@ -964,7 +974,8 @@ p.click a {
 	font-size:18px;
 	line-height:1em;
 	text-transform:uppercase;
-	font-family: MuseoSlab-500; 
+	font-family: Helvetica;/*MuseoSlab-500;*/
+	font-weight:500; 
 }
 
 .tabs-panel 
@@ -982,7 +993,8 @@ p.click a {
 .tabs-panel table tbody tr {
 	height:23px;
 	color:#000;
-	font-family: MuseoSlab-700;
+	font-family: Helvetica;/*MuseoSlab-700;*/
+	font-weight:700;
 	font-size:12px;
 	background-image:url(../images/dot-tall.png);
 	background-position:left top;
@@ -1107,8 +1119,9 @@ p.click a {
 }*/
 .standards-list h3, .options-list h3 {
     font-weight: bold;
-	font-family: MuseoSlab-700;
-    margin-bottom: 5px;
+	font-family: Helvetica;/* MuseoSlab-700;*/
+    font-weight:700;
+	margin-bottom: 5px; 
     text-transform: uppercase;
 	font-size:16px;
 	color:#000;
@@ -1120,7 +1133,8 @@ p.click a {
     color: #000;
     font-weight: bold;
     text-transform: uppercase;
-	font-family: MuseoSlab-700;
+	font-family: Helvetica;/*MuseoSlab-700;*/
+	font-weight:700;
 }
 .standards-list p, .options-list p {
     line-height: 1.4em;
@@ -1858,9 +1872,10 @@ li#share-box {
 
 .breadcrumbs {
 	text-transform:uppercase;
-	font-family: MuseoSlab-700;
+	font-family: Helvetica;/*MuseoSlab-700;*/
 	font-size:12px;
 	margin-bottom:30px;
+	font-weight:700;
 }
 
 .breadcrumbs ul{
@@ -1879,12 +1894,13 @@ li#share-box {
 	border-right:#000 solid 2px;
 	padding: 0 5px;
 			
-	font-family: MuseoSlab-700;
+	font-family: Helvetica;/*MuseoSlab-700;*/
     font-size: 12px;
     margin-bottom: 30px;
     text-transform: uppercase;
 	text-decoration:none;
 	color:#000;
+	font-weight:700;
 }
 
 
@@ -1951,7 +1967,8 @@ li#share-box {
 	text-decoration:none;
 	background-position:0 0;
 	font-size:9px;
-	font-family: MuseoSlab-900; 
+	font-family: Helvetica;/*MuseoSlab-900;*/ 
+	font-weight: 900;
 	text-transform:uppercase;
 	width:83px;
 	text-align:center;
