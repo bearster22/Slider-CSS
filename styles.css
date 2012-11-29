@@ -798,6 +798,21 @@ ul.grid {
 
 
 
+ul.video-list { /* removing styling from ul.grid on landing pages */
+	width: auto; 
+	display:block;
+}
+
+li.video-grid {
+	padding:0px;
+	background-image:none;
+	background-color:transparent;
+}
+
+li.video-grid:hover {
+	background-image:none;
+	background-color:transparent;
+}
 
 
 .video-grid {
@@ -1241,8 +1256,40 @@ p.click a {
 	font-size: 20px;
 	line-height:1em;
 	}
+	
+
 
 /*-------build a boat ------------*/   
+
+ul.build-list { /* removing styling from ul.grid on landing pages */
+	width: auto; 
+	display:block;
+}
+
+ul.build-list li {
+	padding:0px;
+	background-image:none;
+	background-color:transparent;
+}
+
+ul.build-list li:hover {
+	background-image:none;
+	background-color:transparent;
+}
+
+ul.build-list li a:hover img {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  /* IE 5-7 */
+  filter: alpha(opacity=60);
+  /* Netscape */
+  -moz-opacity: 0.6;
+  /* Safari 1.x */
+  -khtml-opacity: 0.6;
+  /* Good browsers */
+  opacity: 0.6;
+}
+
 
 #io-ob {
 	margin-left:50%;
