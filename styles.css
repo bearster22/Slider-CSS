@@ -474,7 +474,7 @@ ul.grid {
 	background-repeat:repeat;*/
 	background: rgb(0, 0, 0);
 	/* RGBa with 0.6 opacity */
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.75);
 	/* For IE 5.5 - 7*/
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
 	/* For IE 8*/
@@ -491,7 +491,7 @@ ul.grid {
 	background-color: transparent;
 	background: rgb(254, 205, 9);
 	/* RGBa with 0.6 opacity */
-	background: rgba(254, 205, 9, 0.6);
+	background: rgba(254, 205, 9, 0.9);
 	/* For IE 5.5 - 7*/
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99fdcc09,endColorstr=#99fdcc09);
 	
@@ -499,6 +499,7 @@ ul.grid {
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99fdcc09, endColorstr=#99fdcc09)";
 	
 	color:#000;
+	font-weight: 500;
 }
    
 /*-------secondary navigation ------------*/   
