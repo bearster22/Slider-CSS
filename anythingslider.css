@@ -203,7 +203,7 @@ margin:0;
 #slider div.anythingSlider .thumbNav li { display: inline; }
 #slider div.anythingSlider .thumbNav a {
 	font-size:12px;
-	font-family: Helvetica;/*MuseoSlab-700;*/
+	font-family: MuseoSlab-700;
 	display: inline-block;
 	text-decoration: none;
 	padding: 2px 2px;
@@ -212,7 +212,9 @@ margin:0;
 	background-repeat: repeat-x;
 	text-align: center;
 	outline: 0;
-	margin-top:5px;
+
+		margin-top:5px;
+		
 }
 
 #slider div.anythingSlider .thumbNav a span{
@@ -234,8 +236,7 @@ a:hover {
 
 /* Autoplay Start/Stop button */
 #slider div.anythingSlider .start-stop {
-	font-family: Helvetica;/*MuseoSlab-700;*/
-	font-weight: 700;
+	font-family: MuseoSlab-700;
 /*	background-repeat: repeat-x;
 	background-position: center top;*/
 	padding: 2px 0px 1px 0;
