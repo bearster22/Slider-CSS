@@ -867,8 +867,7 @@ ul.grid {
 .tabs-panel .columns{
 	width: 914px;
 	display: block;
-	/*background-image: url(../images/px-yellow.png);*/
-	background-color: #fff;
+	background-image: url(../images/px-yellow.png);
 	background-repeat:repeat;
 	overflow:hidden;
 	padding-bottom:0px;
@@ -882,8 +881,8 @@ ul.grid {
 .tabs-panel .left-col{
 	width:470px;
 	float:left;
-	padding-left:30px;
-	padding-top:20px;
+	padding-left:50px;
+	padding-top:30px;
 	padding-bottom:20px;
 }
 
@@ -891,9 +890,8 @@ ul.grid {
 .tabs-panel .right-col {
 	width:394px;
 	float:left;
-	margin:20px 20px 20px 0;
-	padding: 15px 0 20px 0;
-	background-image: url(../images/px-yellow.png);
+	padding:20px 0 20px 0;
+	margin:0;
 }
 
 .tabs-panel .right-col p {
@@ -922,12 +920,12 @@ ul.grid {
 
 
 p.click a {
-	/*background:#000;*/
+	background:#000;
 	font-family: Helvetica;/*MuseoSlab-700;*/ 
 	font-weight:700;
 	text-transform: uppercase; 
-	color:#000;
-	padding: 10px 10px 3px 10px;
+	color:#fecd04;
+	padding: 5px 10px 3px 10px;
 	font-size:12px;
 }
 
@@ -942,7 +940,7 @@ p.click a {
 	background-image:none;
 	background-color:#000;
 	color:#FFF;
-	padding: 15px 20px;
+	padding: 10px 20px 5px 20px;
 	margin-top:0;
 	margin-bottom:0;
 	font-size:34px;
@@ -958,17 +956,17 @@ p.click a {
 }
 
 .tabs-panel h3 {
-	/*background-image:url(../images/h3-bg.png);*/
-	/*background-repeat:no-repeat;*/
-	color:#000;
-	padding: 15px 0px;
+	background-image:url(../images/h3-bg.png);
+	background-repeat:no-repeat;
+	color:#fecd04;
+	padding: 8px 20px 10px 10px;
 	margin-top:0px;
 	margin-bottom:0;
-	font-size:20px;
+	font-size:18px;
 	line-height:1em;
 	text-transform:uppercase;
 	font-family: Helvetica;/*MuseoSlab-500;*/ 
-	font-weight:900;
+	font-weight:500;
 }
 
 .slider2 h3 {
@@ -995,28 +993,23 @@ p.click a {
 
 .tabs-panel table {
 	margin-bottom:10px;
-	width: 95%;
 }
 
 .tabs-panel table tbody tr {
 	height:23px;
 	color:#000;
 	font-family: Helvetica;/*MuseoSlab-700;*/
-	font-weight:500;
+	font-weight:700;
 	font-size:12px;
-	/*background-image:url(../images/dot-tall.png);
+	background-image:url(../images/dot-tall.png);
 	background-position:left top;
-	background-repeat:repeat-x;*/
+	background-repeat:repeat-x;
 }
 
-.tabs-panel table tbody tr:nth-child(odd) {
-	background-color: #eee;
-} 
-
 .tabs-panel table tbody tr.tall {
-	/*background-image:url(../images/dot-very-tall.png);
+	background-image:url(../images/dot-very-tall.png);
 	background-position:left top;
-	background-repeat:repeat-x;*/
+	background-repeat:repeat-x;
 	height:40px;
 }
 
@@ -1051,20 +1044,20 @@ p.click a {
 }
 
 .tabs-panel table tbody tr:hover {
-	/*background-color:#000;*/
-	color: #000;
-	background-image: url(../images/px-yellow.png); 
+	background-color:#000;
+	color: #FFF;
+	background-image:url(../images/dot-tall-on.png); 
 	background-position:left top;
-	background-repeat: repeat;
+	background-repeat:repeat-x;
 	height:23px;
 }
 
 .tabs-panel table tbody tr.tall:hover {
-	/*background-color:#000;*/
-	color: #000;
-	background-image: url(../images/px-yellow.png); 
+	background-color:#000;
+	color: #FFF;
+	background-image:url(../images/dot-very-tall-on.png); 
 	background-position:left top;
-	background-repeat: repeat;
+	background-repeat:repeat-x;
 	height:40px;
 }
 
