@@ -119,8 +119,9 @@ a:link, a:visited{
 	overflow-y:auto;
 	/*overflow-x:hidden;*/
 	padding:20px 0 20px 20px;
-	background-image: url(../images/px-yellow.png);
-	background-repeat:repeat;
+	/*background-image: url(../images/px-yellow.png);
+	background-repeat:repeat;*/
+	/*background-color: #fff;*/
 	position:relative;
 	width:900px;
 	
@@ -159,7 +160,7 @@ a:link, a:visited{
 	background-image:none;
 	background-color:#000;
 	color:#FFF;
-	padding: 10px 20px 5px 20px;
+	padding: 15px 20px;
 	margin-top:0;
 	margin-bottom:0;
 	font-size:34px;
@@ -185,50 +186,68 @@ a:link, a:visited{
 	margin-left:9px;
 }
 
+.landing-text {
+	width: 320px;
+	background-image: url(../images/px-yellow.png);
+	padding: 20px;
+	float: left;
+	margin-right: 20px;	
+}
+
 ul.grid {
-  padding: 0;
+  padding: 0px;
   list-style: none;
-  margin: 15px 0 0 7px;
-  display:block;
+  margin: 0px;
+  display: inline-block;
   overflow:hidden;
+  width: 520px;
   }
 
 .grid li {
   float: left;
-  padding: 0;
-  margin: 0 29px 0px 0px;
+  padding: 20px;
+  margin: 0 20px 20px 0px;
   text-align:center;
+  background-color: #fff;
+  background-image: none;
   } 
+  
+.grid li:hover {
+  background-color: transparent;
+  background-image: url(../images/px-yellow.png);
+}
   
 .grid li a {
   display: block;
   }
 
 .grid li img {
-  padding: 0 0 7px 0; 
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 .grid li p {
 	font-family: Helvetica;/*MuseoSlab-700;*/ 
 	font-size:14px!important;
-	color:#836D20!important;
+	color:#000!important;
 	font-weight:700;
+	margin-top: 10px;
+	margin-bottom: 0px !important;
 }
  
 
   
 .grid li a:hover img {
   /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+ /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";*/
   /* IE 5-7 */
-  filter: alpha(opacity=60);
+  /*filter: alpha(opacity=60);*/
   /* Netscape */
-  -moz-opacity: 0.6;
+ /* -moz-opacity: 0.6;*/
   /* Safari 1.x */
-  -khtml-opacity: 0.6;
+  /*-khtml-opacity: 0.6;*/
   /* Good browsers */
-  opacity: 0.6;
+ /* opacity: 0.6;*/
   
 }
    
