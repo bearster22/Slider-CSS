@@ -57,8 +57,8 @@ body {
 	padding:0px;
 	background-image:url(../images/striper-bg-03.jpg);
 	background-repeat:no-repeat;
-	background-position:center top;
-	background-size:cover; /* change for live site */
+	background-position:center -250px;
+	background-size: 2000px;
 }
 
 p {
@@ -1130,7 +1130,12 @@ p.click a {
 }
 
 
-
+p.spec-aside {
+	float: right;
+	padding: 0px 20px 0px 0px;
+	font-size: 10px;
+	text-align: right;
+}
 
 
 /*-------features------------*/  
