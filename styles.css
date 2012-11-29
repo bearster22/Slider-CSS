@@ -115,11 +115,11 @@ a:link, a:visited{
 
 #content {
 	min-height:500px;
-	max-height:705px;
+	max-height:647px;
 	overflow-y:auto;
 	/*overflow-x:hidden;*/
 	padding:20px 0 20px 20px;
-	/*background-image: url(../images/px-yellow.png);*/
+	background-image: url(../images/px-yellow.png);
 	background-repeat:repeat;
 	position:relative;
 	width:900px;
@@ -140,7 +140,7 @@ a:link, a:visited{
 #content p{
 	font-size:12px;
 	margin-bottom: 10px;
-	color:#222;
+	color:#000;
 }
 
 #content h2{
@@ -159,7 +159,7 @@ a:link, a:visited{
 	background-image:none;
 	background-color:#000;
 	color:#FFF;
-	padding: 20px;
+	padding: 10px 20px 5px 20px;
 	margin-top:0;
 	margin-bottom:0;
 	font-size:34px;
@@ -188,7 +188,7 @@ a:link, a:visited{
 ul.grid {
   padding: 0;
   list-style: none;
-  margin: 0px;
+  margin: 15px 0 0 7px;
   display:block;
   overflow:hidden;
   }
@@ -196,9 +196,8 @@ ul.grid {
 .grid li {
   float: left;
   padding: 0;
-  margin: 0 60px 0px 0px;
+  margin: 0 29px 0px 0px;
   text-align:center;
-  width:43%;
   } 
   
 .grid li a {
@@ -206,19 +205,15 @@ ul.grid {
   }
 
 .grid li img {
-  padding: 0; 
+  padding: 0 0 7px 0; 
   margin: 0;
-  width:100%;
-  height:auto;
-  border:15px solid #fff;
-  }
+}
 
 .grid li p {
 	font-family: Helvetica;/*MuseoSlab-700;*/ 
-	font-size:16px!important;
+	font-size:14px!important;
 	color:#836D20!important;
 	font-weight:700;
-	padding-top:5px;
 }
  
 
