@@ -2163,7 +2163,7 @@ padding-left:45px;}
     overflow: hidden;
     padding-bottom: 0px;
     padding-left: 0px;
-    padding-top: 0px;
+    padding-top: 15px;
     width: 920px;
 }
 .tech-2col {
@@ -2201,7 +2201,8 @@ padding-left:45px;}
     margin-bottom: 4px;
     overflow: hidden;
     text-transform: uppercase;
-	font-family: MuseoSlab-500; 
+	font-family: Helvetica;/*MuseoSlab-500;*/
+	font-weight: 700; 
 	
 }
 
