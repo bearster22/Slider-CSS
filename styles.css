@@ -693,8 +693,9 @@ ul.grid {
 	float:left;
 	display:inline;
 	/*background-image: url(../images/box-3.jpg);*/
-	background-image: url(../images/px-yellow.png);
-	background-repeat:repeat;
+	/*background-image: url(../images/px-yellow.png);*/
+	/*background-repeat:repeat;*/
+	background-color: #fff;
 	overflow:hidden;
 
 }
