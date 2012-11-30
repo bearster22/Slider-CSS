@@ -2506,8 +2506,8 @@ textarea {
 	resize:none;
 }
 
-input#btnSubmit {
-/*    background-color: #000000;
+/*input#btnSubmit {
+    background-color: #000000;
     background-image: none;
     color: #FECD04;
     font-family: MuseoSlab-500;
@@ -2519,9 +2519,9 @@ input#btnSubmit {
     text-transform: uppercase;
 	width:90px;
 	border:none;
-	height:20px;*/
+	height:20px;
 }
-
+*/
 
 input#btnSubmit {
 	-moz-box-shadow:inset 0px 1px 0px 0px #000;
@@ -2532,14 +2532,12 @@ input#btnSubmit {
 	display:inline-block;
 	color: #FECD04;
 	
-	font-size:12px !important;
+	font-size:14px !important;
 	font-family: Helvetica;/*MuseoSlab-500;*/
 	text-transform: uppercase;
 	padding: 10px 20px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #000;
-	font-weight: 700;
-	margin-left: 120px;
 	line-height:1em;
 	height:auto;
 	width:auto;
@@ -2573,7 +2571,7 @@ color:#c41425;
 
 .JIDLdealerContainer {padding-top: 10px; padding-bottom: 10px; line-height:1.15em;}
 
-.JIDLdealerName {font-size: 14px; font-weight:bold; padding-bottom:3px; font-family: MuseoSlab-700;}
+.JIDLdealerName {font-size: 14px; /*font-weight:bold;*/ padding-bottom:3px; font-family: MuseoSlab-700;}
 
 .JIDLdistance {float: left; padding-right: 10px;}
 
@@ -2615,7 +2613,7 @@ button.jqTransformButton {
     box-shadow: 0 1px 0 0 #000000 inset;
     color: #FECD04;
     display: inline-block;
-    font-family: MuseoSlab-500;
+    font-family: Helvetica;/*MuseoSlab-500;*/
     font-size: 14px;
     height: auto;
     line-height: 1em;
@@ -2901,13 +2899,14 @@ background-image: none;
 }*/
 
 #sitemap h3{
-	font-size:22px;
+	font-size:24px;
 	margin:-5px 0 10px 0px;
 	background-image: none;
     text-align: left;
     text-transform: none;
     width: auto;
-	font-family:Verdana, Geneva, sans-serif;
+	font-family:Helvetica, sans-serif;
+	font-weight:700;
 }
 
 #sitemap h4{
@@ -2917,6 +2916,7 @@ background-image: none;
 
 #sitemap h5{
 	margin-left:10px;
+	font-weight:normal;
 }
 
 
