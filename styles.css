@@ -115,10 +115,10 @@ a:link, a:visited{
 
 #content {
 	min-height:500px;
-	max-height:647px;
+	max-height:663px;
 	overflow-y:auto;
 	/*overflow-x:hidden;*/
-	padding:20px 0 20px 20px;
+	padding:20px 0 0px 20px;
 	/*background-image: url(../images/px-yellow.png);
 	background-repeat:repeat;*/
 	/*background-color: #fff;*/
@@ -187,11 +187,10 @@ a:link, a:visited{
 }
 
 .landing-text {
-	width: 320px;
+	width: 200px;
 	background-image: url(../images/px-yellow.png);
 	padding: 20px;
 	float: left;
-	margin-right: 20px;	
 }
 
 ul.grid {
@@ -200,13 +199,13 @@ ul.grid {
   margin: 0px;
   display: inline-block;
   overflow:hidden;
-  width: 520px;
+  width: 660px;
   }
 
 .grid li {
   float: left;
-  padding: 20px;
-  margin: 0 20px 20px 0px;
+  padding: 15px;
+  margin: 0 0px 20px 20px;
   text-align:center;
   background-color: #fff;
   background-image: none;
@@ -802,17 +801,18 @@ ul.grid {
 ul.video-list { /* removing styling from ul.grid on landing pages */
 	width: auto; 
 	display:block;
+	margin: 10px 0;
 }
 
 li.video-grid {
-	padding:0px;
-	background-image:none;
-	background-color:transparent;
+	padding:10px;
+	margin: 0 0 10px 10px;
 }
+
 
 li.video-grid:hover {
 	background-image:none;
-	background-color:transparent;
+	background-color: #fff;
 }
 
 
@@ -827,8 +827,8 @@ li.video-grid:hover {
 	 display: block;
 	 position:absolute;
 	 /*top:49px;*/
-	 top:23px;
-	 left: 49px;
+	 top:28px;
+	 left: 59px;
 	 width: 95px;
 	 height: 95px;
 
@@ -1267,20 +1267,21 @@ p.spec-aside {
 
 /*-------build a boat ------------*/   
 
+
 ul.build-list { /* removing styling from ul.grid on landing pages */
 	width: auto; 
 	display:block;
+	margin: 0;
 }
 
 ul.build-list li {
-	padding:0px;
-	background-image:none;
-	background-color:transparent;
+	padding:10px;
+	margin: 0 0 10px 10px;
 }
 
 ul.build-list li:hover {
-	background-image:none;
-	background-color:transparent;
+	background-image: url(../images/px-yellow.png);
+	background-color: transparent;
 }
 
 ul.build-list li a:hover img {
