@@ -55,10 +55,9 @@ body {
 	background-color: #000;
 	margin:0px;
 	padding:0px;
-	background-image:url(../images/striper-bg-03.jpg);
+	background-image:url(../images/striper-bg-07.jpg);
 	background-repeat:no-repeat;
-	background-position:center -250px;
-	background-size: 2000px;
+	background-position: -80px top;
 }
 
 p {
@@ -107,8 +106,8 @@ a:link, a:visited{
 	width:960px;
 	margin: 10px auto 10px auto;
 	border: none;
-	background-image:url(../images/px-creme.png);
-	background-color: rgba(255,255,255,.7);
+	background-image:url(../images/px-white.png);
+	/*background-color: rgba(255,255,255,.7);*/
 	zoom: 1;
 
 }
@@ -1286,16 +1285,16 @@ ul.build-list li:hover {
 
 ul.build-list li a:hover img {
   /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";*/
   /* IE 5-7 */
-  filter: alpha(opacity=60);
-  /* Netscape */
-  -moz-opacity: 0.6;
-  /* Safari 1.x */
-  -khtml-opacity: 0.6;
-  /* Good browsers */
-  opacity: 0.6;
-}
+/*  filter: alpha(opacity=60);
+*/  /* Netscape */
+/*  -moz-opacity: 0.6;
+*/  /* Safari 1.x */
+/*  -khtml-opacity: 0.6;
+*/  /* Good browsers */
+/*  opacity: 0.6;
+*/}
 
 
 #io-ob {
